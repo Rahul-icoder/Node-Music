@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+}
+
+.main-container {
+  background-color: #b14b2a;
+  height: 85.9vh;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.music-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.music-container .music-card {
+  height: 110px;
+  background-color: #000;
+  border-radius: 5px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 0rem 1.2rem;
+  color: white;
+}
+
+.header-container button {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.header-container button:focus {
+  border: 1px solid white;
+  transform: scale(1.04);
+}

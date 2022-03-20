@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N-MUSIC</title>
+    <link rel="stylesheet" href="/css/music.css" />
+    <script src="/script/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>N-MUSIC</h1>
+      <button onclick="stopMusic()">STOP</button>
+    </header>
+    <main class="main-container">
+      <section class="music-container">
+        <% if(locals.musicList) {%> <% musicList.forEach(function(music){ %>
+        <div class="music-card"><%= music %></div>
+        <% }); %> <% } %>
+      </section>
+    </main>
+  </body>
+</html>
