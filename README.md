@@ -16,20 +16,27 @@ git clone https://github.com/Rahul-icoder/Node-Music.git
 
 ### STEP 3
 
-`npm install`
+```node
+npm install
+```
 
 ### STEP 4
 
-`npm start`
+```node
+npm start
+```
 
 ### STEP 5
 
-`Install ngrok for port tunneling`
+Install ngrok for port tunneling
 
 ### STEP 6
 
-Start ngrok after installing and setup.
-`ngrok http 4000`
+Start ngrok after installing and setup.<br>
+
+```ngrok
+ngrok http 4000
+```
 
 ### STEP 7
 
