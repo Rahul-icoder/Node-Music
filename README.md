@@ -1,6 +1,6 @@
 ## Node-Music
 
-You can change your local computer song remotely through different device by using ngrok.
+You can change your local computer song remotely through different device by just by sharing url.
 
 ### STEP 1
 
