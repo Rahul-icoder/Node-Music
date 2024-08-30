@@ -1,6 +1,6 @@
 ## Node-Music
 
-You can change your local computer song remotely through different device just by sharing URL.
+Node-Music allows you to control and play songs on your local computer remotely from any device by simply sharing a URL. Follow the steps to set up the project, place your songs in the designated directory, and use ngrok for port tunneling. Share the ngrok URL to enable remote control, perfect for parties or just enjoying music without being tied to one device.
 
 ### STEP 1
 
